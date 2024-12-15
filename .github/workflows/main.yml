@@ -1,0 +1,14 @@
+name: Python addition
+
+on: 
+  push: 
+    branches: 
+      -master
+
+jobs: 
+  job1: 
+    name: "Hello"
+    runs-on: ubuntu-latest
+    steps: 
+      - run: echo "Hello , welcome to python addition"
+
