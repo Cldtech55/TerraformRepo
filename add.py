@@ -4,3 +4,4 @@ def add(a,b):
 
 a=int(input("Enter number a"))
 b=int(input("Enter number b"))
+add()
